@@ -13,4 +13,4 @@ docker run -it \
 --device=/dev/video0 \
 -p 9090:9090 \
 -p 8888:8888 \
-yahboomtechnology/ultralytics:1.0.3 /bin/bash
+yahboomtechnology/ultralytics:1.0.3 /bin/bash -c "pip install openpyxl && /bin/bash"
